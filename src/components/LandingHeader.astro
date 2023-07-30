@@ -11,7 +11,7 @@ import Logo from "./logo.astro";
     <Logo />
   </div>
 
-  <nav>
+  <nav class="hidden xl:block sm:hidden">
     <ul class="flex text-xs [&>li>a]:transition-colors [&>li>a]:duration-100 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
       <li><a href="#model-s">Model S</a></li>
       <li><a href="#model-3">Model 3</a></li>
@@ -24,9 +24,9 @@ import Logo from "./logo.astro";
 
   <nav class="flex flex-grow justify-end basis-0">
     <ul class="flex text-xs [&>li>a]:transition-colors [&>li>a]:duration-100 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
-      <li><a href="#">Soporte</a></li>
-      <li><a href="#">Tienda</a></li>
-      <li><a href="#">Cuenta</a></li>
+      <li class="hidden xl:block sm:hidden"><a href="#">Soporte</a></li>
+      <li class="hidden xl:block sm:hidden"><a href="#">Tienda</a></li>
+      <li class="hidden xl:block sm:hidden"><a href="#">Cuenta</a></li>
       <li><a href="#">Menú</a></li>
     </ul>
   </nav>
