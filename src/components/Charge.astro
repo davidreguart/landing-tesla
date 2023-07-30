@@ -1,0 +1,25 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+				title='Accesorios'
+				subtitle=''
+				color="black"
+			>
+				<div slot="footer" class="flex gap-x-4 mx-auto">
+					<a
+						href="#"
+						class="text-black border-[3px] border-gray-text-black bg-white backdrop-blur-3xl rounded-sm font-normal px-10 py-2 inline-block hover:text-white hover:bg-black/90 hover:border-black/90 transition-colors duration-300 text-sm"
+					>
+						Comprar ahora
+					</a>
+				</div>
+
+				<img
+					slot="background"
+          src="/accessories.avif"
+          alt="Accesories"
+          class="h-full w-full object-cover object-center"  
+        >
+			</Section>
